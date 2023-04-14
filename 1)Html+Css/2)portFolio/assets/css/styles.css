@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root{
+    --baseColor : #F9004d;
+    --white : #fff;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header section of the website */
+header{
+    background-image: url("https://images.unsplash.com/photo-1541280910158-c4e14f9c94a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: contain;
+    padding: 50px 90px ;
+    height: 700px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--white);
+}
+
+span{
+    color: var(--baseColor);
+}
+
+/* navigation link of the header section */
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: var(--white);
+}
+
+/* button of the header section */
+.header-main-button{
+    border-radius: 20px;
+    padding: 5px 10px 5px;
+    background-color: var(--baseColor);
+    border: none;
+    color: #fff;
+}
+
+/* content header
+ */
+ .content-header{
+    padding-left: 100px;
+    margin-top: 80px;
+    color: #fff;
+ }
+
+ .header-description{
+    margin-bottom: 60px;
+ }
+ .header-input{
+    border-radius: 20px;
+    padding: 5px;
+ }
