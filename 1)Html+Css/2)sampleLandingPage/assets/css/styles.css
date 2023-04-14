@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* start of the main */
+section{
+    width: 50%;
+    margin: auto;
+}
+.mobile-phone{
+    float: right;
+}
