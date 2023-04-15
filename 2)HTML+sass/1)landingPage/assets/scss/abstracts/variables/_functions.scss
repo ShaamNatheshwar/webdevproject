@@ -1,0 +1,4 @@
+@use "./index" ;
+@function changeColor($variant){
+    @return map-get($map: index.$changer, $key: $variant)
+}

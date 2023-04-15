@@ -1,0 +1,44 @@
+@use "../abstracts/variables/index" as index;
+@use "../components/buttons";
+@use "../abstracts/variables/functions" as func;
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+      color: index.$textColor;
+    }
+    &__navigation-links{
+      padding: 20px;
+      text-decoration: none;
+      color: index.$textColor;
+      &:hover{
+          color: green;
+      }
+    }
+    &__navigation-button{
+      @include buttons.buttonDefault;
+    }
+  }
+
+
+  .main-section{
+    display: flex;
+    justify-content: space-between;
+
+    &__content{
+        position: relative;
+        top: 150px;
+    }
+    &__content-text-one{
+        color: index.$mainContentTextColor;
+        font-size: 40px;
+        padding: 10px;
+    }
+    &__content-text-two{
+        font-size: 40px;
+        padding: 10px;
+    }
+    &__content-description{
+        padding: 10px;
+    }
+}

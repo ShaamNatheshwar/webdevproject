@@ -1,0 +1,8 @@
+@use "../abstracts/variables/index";
+@mixin buttonDefault() {
+  padding: 10px 30px;
+  background-color: index.$buttonColor;
+  color: index.$buttonTextColor;
+  border: none;
+  box-shadow: 2px 2px black;
+}
